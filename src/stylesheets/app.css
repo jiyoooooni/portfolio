@@ -1,0 +1,14 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.wrap {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #fff;
+    margin: -150px 0 0 -150px;
+}
