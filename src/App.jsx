@@ -65,34 +65,36 @@ class App extends React.Component {
                   <span className="text">Skill<br/></span>
                   <strong className="title">What Can I Do</strong>
               </h2>
-              <div className="skill_wrap">
-                <dl className="skill_list">
-                  <dt className="name">HTML</dt>
-                  <dd className="text">SEO&#40;검색엔진 최적화&#41;</dd>
-                  <dd className="text">웹 접근성</dd>
-                  <dd className="text">Sementic Web</dd>
-                  <dt className="name">CSS</dt>
-                  <dd className="text">CSS3</dd>
-                  <dd className="text">반응형 레이아웃&#40;미디어쿼리&#41;</dd>
-                  <dd className="text">Scss 활용</dd>
-                  <dt className="name">JAVA SCRIPT</dt>
-                  <dd className="text">UI 제어</dd>
-                  <dd className="text">이벤트 핸들링</dd>
-                  <dd className="text">JQuery 라이브러리 활용</dd>
-                  <dd className="text">Ajax 등 비동기 처리</dd>
-                </dl>
-              </div>
-              <div className="skill_wrap">
-                <dl className="skill_list">
-                  <dt className="name">Task Runner</dt>
-                  <dd className="text">Gulp.js</dd>
-                  <dd className="text">Sprite image 자동화</dd>
-                  <dd className="text">Sass &#38; Watch</dd>
-                  <dt className="name">ETC</dt>
-                  <dd className="text">Git을 이용한 버전 관리</dd>
-                  <dd className="text">GitHub 프로젝트 관리</dd>
-                  <dd className="text">Zeplin-Sketch를 이용한 디자인</dd>
-                </dl>
+              <div className="skill_wrap_bx">
+                <div className="skill_wrap">
+                  <dl className="skill_list">
+                    <dt className="name">HTML</dt>
+                    <dd className="text">SEO&#40;검색엔진 최적화&#41;</dd>
+                    <dd className="text">웹 접근성</dd>
+                    <dd className="text">Sementic Web</dd>
+                    <dt className="name">CSS</dt>
+                    <dd className="text">CSS3</dd>
+                    <dd className="text">반응형 레이아웃&#40;미디어쿼리&#41;</dd>
+                    <dd className="text">Scss 활용</dd>
+                    <dt className="name">JAVA SCRIPT</dt>
+                    <dd className="text">UI 제어</dd>
+                    <dd className="text">이벤트 핸들링</dd>
+                    <dd className="text">JQuery 라이브러리 활용</dd>
+                    <dd className="text">Ajax 등 비동기 처리</dd>
+                  </dl>
+                </div>
+                <div className="skill_wrap">
+                  <dl className="skill_list">
+                    <dt className="name">Task Runner</dt>
+                    <dd className="text">Gulp.js</dd>
+                    <dd className="text">Sprite image 자동화</dd>
+                    <dd className="text">Sass &#38; Watch</dd>
+                    <dt className="name">ETC</dt>
+                    <dd className="text">Git을 이용한 버전 관리</dd>
+                    <dd className="text">GitHub 프로젝트 관리</dd>
+                    <dd className="text">Zeplin-Sketch를 이용한 디자인</dd>
+                  </dl>
+                </div>
               </div>
             </section>
           </div>{/* .section3 */}
@@ -157,202 +159,196 @@ class App extends React.Component {
                 </ul>
               </div>{/* .clickflow */}
               <div className="portfolio artwindow_home">
-                <div className="inner">
-                  <h3 className="portfolio_title">
-                    <strong className="title_number">01.</strong>
-                    <span>아트윈도 홈 - Home</span>
-                  </h3>
-                  <div className="portfolio_monitor">
-                    <a href="#" className="portfoliio_monitor_in">
-                      <img src="" alt=""/>
-                    </a> 
-                  </div>
-                  <div className="portfolio_btn">
-                    <button type="button">
-                      <a href="#" className="button_in">Git Hub</a>
-                    </button>
-                    <button type="button">
-                      <a href="#" className="button_in">View Site</a>
-                    </button>
-                  </div>
-                  <table className="portfolio_table">
-                    <thead>
-                      <tr>
-                        <th className="table_title title_category">Category</th>
-                        <th className="table_title title_source">Source</th>
-                        <th className="table_title title_keywords">Related keywords</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td className="table_text category">
-                          <span className="categ html">HTML</span>
-                        </td>
-                        <td className="table_text source">
-                          <a href="#">index.html</a>
-                        </td>
-                        <td className="table_text keywords">시멘틱 태그, 웹 접근성</td>
-                      </tr>
-                      <tr>
-                        <td className="table_text category">
-                          <span className="categ scss">SCSS</span>
-                        </td>
-                        <td className="table_text source">
-                          <a href="#">main.scss</a>
-                        </td>
-                        <td className="table_text keywords">import, 미디어쿼리를 활용한 반응형 레이아웃</td>
-                      </tr>
-                      <tr>
-                        <td className="table_text category">
-                          <span className="categ js">JS</span>
-                        </td>
-                        <td className="table_text source">
-                          <a href="#">index.js</a>
-                        </td>
-                        <td className="table_text keywords">egjs를 활용한 슬라이더 구현</td>
-                      </tr>
-                      <tr>
-                        <td className="table_text category">
-                          <span className="categ task">TASK</span>
-                        </td>
-                        <td className="table_text source"></td>
-                        <td className="table_text keywords">gulp를 활용한 Sprite Image</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                <h3 className="portfolio_title">
+                  <strong className="title_number">01.</strong>
+                  <span>아트윈도 홈 - Home</span>
+                </h3>
+                <div className="portfolio_monitor">
+                  <a href="#" className="portfoliio_monitor_in">
+                    <img src="" alt=""/>
+                  </a> 
                 </div>
+                <div className="portfolio_btn">
+                  <button type="button">
+                    <a href="#" className="button_in">Git Hub</a>
+                  </button>
+                  <button type="button">
+                    <a href="#" className="button_in">View Site</a>
+                  </button>
+                </div>
+                <table className="portfolio_table">
+                  <thead>
+                    <tr>
+                      <th className="table_title title_category">Category</th>
+                      <th className="table_title title_source">Source</th>
+                      <th className="table_title title_keywords">Related keywords</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td className="table_text category">
+                        <span className="categ html">HTML</span>
+                      </td>
+                      <td className="table_text source">
+                        <a href="#">index.html</a>
+                      </td>
+                      <td className="table_text keywords">시멘틱 태그, 웹 접근성</td>
+                    </tr>
+                    <tr>
+                      <td className="table_text category">
+                        <span className="categ scss">SCSS</span>
+                      </td>
+                      <td className="table_text source">
+                        <a href="#">main.scss</a>
+                      </td>
+                      <td className="table_text keywords">import, 미디어쿼리를 활용한 반응형 레이아웃</td>
+                    </tr>
+                    <tr>
+                      <td className="table_text category">
+                        <span className="categ js">JS</span>
+                      </td>
+                      <td className="table_text source">
+                        <a href="#">index.js</a>
+                      </td>
+                      <td className="table_text keywords">egjs를 활용한 슬라이더 구현</td>
+                    </tr>
+                    <tr>
+                      <td className="table_text category">
+                        <span className="categ task">TASK</span>
+                      </td>
+                      <td className="table_text source"></td>
+                      <td className="table_text keywords">gulp를 활용한 Sprite Image</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>{/* .artwindow_home */}
               <div className="portfolio artwindow_products">
-                <div className="inner">
-                  <h3 className="portfolio_title">
-                    <strong className="title_number">02.</strong>
-                    <span>아트윈도 작품관 - Products List</span>
-                  </h3>
-                  <div className="portfolio_monitor">
-                    <a href="#" className="portfoliio_monitor_in">
-                      <img src="" alt=""/>
-                    </a> 
-                  </div>
-                  <div className="portfolio_btn">
-                    <button type="button">
-                      <a href="#" className="button_in">Git Hub</a>
-                    </button>
-                    <button type="button">
-                      <a href="#" className="button_in">View Site</a>
-                    </button>
-                  </div>
-                  <table className="portfolio_table">
-                    <thead>
-                      <tr>
-                        <th className="table_title title_category">Category</th>
-                        <th className="table_title title_source">Source</th>
-                        <th className="table_title title_keywords">Related keywords</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td className="table_text category">
-                          <span className="categ html">HTML</span>
-                        </td>
-                        <td className="table_text source">
-                          <a href="#">sub.html</a>
-                        </td>
-                        <td className="table_text keywords">시멘틱 태그, 웹 접근성</td>
-                      </tr>
-                      <tr>
-                        <td className="table_text category">
-                          <span className="categ scss">SCSS</span>
-                        </td>
-                        <td className="table_text source">
-                          <a href="#">sub.scss</a>
-                        </td>
-                        <td className="table_text keywords">import, 미디어쿼리를 활용한 반응형 레이아웃</td>
-                      </tr>
-                      <tr>
-                        <td className="table_text category">
-                          <span className="categ js">JS</span>
-                        </td>
-                        <td className="table_text source">
-                          <a href="#">sub.js</a>
-                        </td>
-                        <td className="table_text keywords">Infinity Grid Layout, AJAX를 활용한 작품정보 불러오기</td>
-                      </tr>
-                      <tr>
-                        <td className="table_text category">
-                          <span className="categ task">TASK</span>
-                        </td>
-                        <td className="table_text source"></td>
-                        <td className="table_text keywords">gulp를 활용한 Sprite Image</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                <h3 className="portfolio_title">
+                  <strong className="title_number">02.</strong>
+                  <span>아트윈도 작품관 - Products List</span>
+                </h3>
+                <div className="portfolio_monitor">
+                  <a href="#" className="portfoliio_monitor_in">
+                    <img src="" alt=""/>
+                  </a> 
                 </div>
+                <div className="portfolio_btn">
+                  <button type="button">
+                    <a href="#" className="button_in">Git Hub</a>
+                  </button>
+                  <button type="button">
+                    <a href="#" className="button_in">View Site</a>
+                  </button>
+                </div>
+                <table className="portfolio_table">
+                  <thead>
+                    <tr>
+                      <th className="table_title title_category">Category</th>
+                      <th className="table_title title_source">Source</th>
+                      <th className="table_title title_keywords">Related keywords</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td className="table_text category">
+                        <span className="categ html">HTML</span>
+                      </td>
+                      <td className="table_text source">
+                        <a href="#">sub.html</a>
+                      </td>
+                      <td className="table_text keywords">시멘틱 태그, 웹 접근성</td>
+                    </tr>
+                    <tr>
+                      <td className="table_text category">
+                        <span className="categ scss">SCSS</span>
+                      </td>
+                      <td className="table_text source">
+                        <a href="#">sub.scss</a>
+                      </td>
+                      <td className="table_text keywords">import, 미디어쿼리를 활용한 반응형 레이아웃</td>
+                    </tr>
+                    <tr>
+                      <td className="table_text category">
+                        <span className="categ js">JS</span>
+                      </td>
+                      <td className="table_text source">
+                        <a href="#">sub.js</a>
+                      </td>
+                      <td className="table_text keywords">Infinity Grid Layout, AJAX를 활용한 작품정보 불러오기</td>
+                    </tr>
+                    <tr>
+                      <td className="table_text category">
+                        <span className="categ task">TASK</span>
+                      </td>
+                      <td className="table_text source"></td>
+                      <td className="table_text keywords">gulp를 활용한 Sprite Image</td>
+                    </tr>
+                  </tbody>
+              </table>
               </div>{/* .artwindow_products */}
               <div className="portfolio artwindow_detail">
-                <div className="inner">
-                  <h3 className="portfolio_title">
-                    <strong className="title_number">03.</strong>
-                    <span>아트윈도 작품 상세 - Products Detail</span>
-                  </h3>
-                  <div className="portfolio_monitor">
-                    <a href="#" className="portfoliio_monitor_in">
-                      <img src="" alt=""/>
-                    </a> 
-                  </div>
-                  <div className="portfolio_btn">
-                    <button type="button">
-                      <a href="#" className="button_in">Git Hub</a>
-                    </button>
-                    <button type="button">
-                      <a href="#" className="button_in">View Site</a>
-                    </button>
-                  </div>
-                  <table className="portfolio_table">
-                    <thead>
-                      <tr>
-                        <th className="table_title title_category">Category</th>
-                        <th className="table_title title_source">Source</th>
-                        <th className="table_title title_keywords">Related keywords</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td className="table_text category">
-                          <span className="categ html">HTML</span>
-                        </td>
-                        <td className="table_text source">
-                          <a href="#">sub_datail.html</a>
-                        </td>
-                        <td className="table_text keywords">시멘틱 태그, 웹 접근성</td>
-                      </tr>
-                      <tr>
-                        <td className="table_text category">
-                          <span className="categ scss">SCSS</span>
-                        </td>
-                        <td className="table_text source">
-                          <a href="#">sub_detail.scss</a>
-                        </td>
-                        <td className="table_text keywords">import, 미디어쿼리를 활용한 반응형 레이아웃</td>
-                      </tr>
-                      <tr>
-                        <td className="table_text category">
-                          <span className="categ js">JS</span>
-                        </td>
-                        <td className="table_text source">
-                          <a href="#">sub_detail.js</a>
-                        </td>
-                        <td className="table_text keywords">Acordian UI (리뷰), Floating Bar… 다양한 UI 모듈화</td>
-                      </tr>
-                      <tr>
-                        <td className="table_text category">
-                          <span className="categ task">TASK</span>
-                        </td>
-                        <td className="table_text source"></td>
-                        <td className="table_text keywords">gulp를 활용한 Sprite Image</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                <h3 className="portfolio_title">
+                  <strong className="title_number">03.</strong>
+                  <span>아트윈도 작품 상세 - Products Detail</span>
+                </h3>
+                <div className="portfolio_monitor">
+                  <a href="#" className="portfoliio_monitor_in">
+                    <img src="" alt=""/>
+                  </a> 
                 </div>
+                <div className="portfolio_btn">
+                  <button type="button">
+                    <a href="#" className="button_in">Git Hub</a>
+                  </button>
+                  <button type="button">
+                    <a href="#" className="button_in">View Site</a>
+                  </button>
+                </div>
+                <table className="portfolio_table">
+                  <thead>
+                    <tr>
+                      <th className="table_title title_category">Category</th>
+                      <th className="table_title title_source">Source</th>
+                      <th className="table_title title_keywords">Related keywords</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td className="table_text category">
+                        <span className="categ html">HTML</span>
+                      </td>
+                      <td className="table_text source">
+                        <a href="#">sub_datail.html</a>
+                      </td>
+                      <td className="table_text keywords">시멘틱 태그, 웹 접근성</td>
+                    </tr>
+                    <tr>
+                      <td className="table_text category">
+                        <span className="categ scss">SCSS</span>
+                      </td>
+                      <td className="table_text source">
+                        <a href="#">sub_detail.scss</a>
+                      </td>
+                      <td className="table_text keywords">import, 미디어쿼리를 활용한 반응형 레이아웃</td>
+                    </tr>
+                    <tr>
+                      <td className="table_text category">
+                        <span className="categ js">JS</span>
+                      </td>
+                      <td className="table_text source">
+                        <a href="#">sub_detail.js</a>
+                      </td>
+                      <td className="table_text keywords">Acordian UI (리뷰), Floating Bar… 다양한 UI 모듈화</td>
+                    </tr>
+                    <tr>
+                      <td className="table_text category">
+                        <span className="categ task">TASK</span>
+                      </td>
+                      <td className="table_text source"></td>
+                      <td className="table_text keywords">gulp를 활용한 Sprite Image</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>{/* .artwindow_product detail */}
             </div>{/* .inner */}
           </div>{/* .section4 */}
