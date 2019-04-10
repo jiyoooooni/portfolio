@@ -3,7 +3,7 @@ body {
 .content .section1 {
     position: relative;
     width: 100%;
-    height: 700px;
+    height: 100vh;
     background-image: url(../img/visual.jpg);
     background-size: cover;
     background-position: 0 30%;
@@ -39,6 +39,8 @@ body {
 .content .section2 {
     position: relative;
     padding: 70px 0 100px;
+    min-height: 700px;
+    height: 100vh;
     text-align: center;
 }
 .content .section2 .title_wrap {
@@ -71,7 +73,7 @@ body {
 .content .section3 .title_wrap {
     position: relative;
     color: #fff;
-    font-size: 28px;
+    font-size: 1.7rem;
     text-align: right;
     opacity: 1;
 }
@@ -86,18 +88,19 @@ body {
     background-color: #fff;
 }
 .content .section3 .title_wrap .title {
-    font-size: 50px;
+    font-size: 3rem;
     line-height: 1.7;
     opacity: 1;
 }
 .content .section3 .intro_bx {
     float: left;
     width: 50%;
-    height: 700px;
+    min-height: 700px;
+    height: 100vh;
     background-color: #6497b1;
 }
 .content .section3 .intro_bx .text_wrap {
-    margin: 50px 30px 0 0;
+    margin: 70px 30px 0 0;
     color: #fcf8f8;
     font-size: 20px;
     line-height: 2.2;
@@ -106,7 +109,8 @@ body {
 .content .section3 .skill_bx {
     float: left;
     width: 50%;
-    height: 700px;
+    min-height: 700px;
+    height: 100vh;
     font-size: 20px;
     background-color: #005b96;
 }
@@ -118,12 +122,12 @@ body {
 }
 .content .section3 .skill_bx .skill_wrap {
     display: inline-block;
-    margin: 40px 30px;
+    margin: 30px 30px 0;
     color: #fcf8f8;
     vertical-align: top;
 }
 .content .section3 .skill_bx .skill_wrap  .skill_list .name {
-    margin: 20px 0 10px;
+    margin: 30px 0 10px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -282,14 +286,20 @@ body {
     margin: 100px auto 0;
     width: 800px;
     height: 500px;
-    background-color: #005b96;
+    background-size: 100%;
+    background-color: #fff;
+
+}
+.content .section4 .artwindow_home .portfolio_monitor {
+    background-image: url(../img/sub.png);
+
+}
+.content .section4 .artwindow_products .portfolio_monitor {
+    background-image: url(../img/sub.png);
 
 }
 .content .section4 .artwindow_detail .portfolio_monitor {
     background-image: url(../img/sub_detail.png);
-    background-size: 100%;
-    background-color: #fff;
-
 }
 .content .section4 .portfolio .portfolio_monitor .portfolio_monitor_in {
     display: block;
@@ -360,12 +370,12 @@ body {
     text-align: center;
 }
 .content .section5 .contacts_title {
-    font-size: 25px;
+    font-size: 1.5rem;
 }
 .content .section5 .contacts_wrap {
     display: inline-block;
     margin-top: 30px;
-    font-size: 18px;
+    font-size: 1.2rem;
 }
 .content .section5 .contacts_wrap .contacts_list {
     text-align: left;
@@ -417,8 +427,16 @@ body {
     .content .section1 nav .nav_wrap .nav_list .nav_list_in {
         width: 180px;
         height: 180px;
-        font-size: 25px;
         line-height: 180px;
+    }
+    .content .section3 .skill_bx .skill_wrap {
+        margin: 50px 10px;
+    }
+    .content .section3 .skill_bx .skill_wrap .skill_list .text {
+        font-size: 0.9rem;
+    }
+    .content .section3 .intro_bx .text_wrap {
+        font-size: 1.1rem;
     }
     .content .section4 .introduce .introduce_text {
         width: 100%;
@@ -442,11 +460,14 @@ body {
     .content .section1 nav .nav_wrap li+li {
         margin-left: 35px;
     }
+    .content .section2 {
+        height: 100%;
+    }
     .content .section2 .title_wrap .title {
-        font-size: 5em;
+        font-size: 5rem;
     }
     .content .section2 .text_welcome {
-        font-size: 1em;
+        font-size: 1rem;
     }
     .content .section3 .intro_bx {
         float: none;
@@ -463,14 +484,17 @@ body {
 
     }
     .content .section3 .intro_bx .text_wrap {
-        margin: 50px 0 0 0;
-        font-size: 1em;
+        margin: 70px 0 0 0;
+        font-size: 1rem;
         text-align: center;
     }
     .content .section3 .skill_bx {
         float: none;
         width: 100%;
         height: 100%;
+    }
+    .content .section3 .skill_bx .skill_wrap {
+        margin: 50px 30px;
     }
     .content .section3 .skill_bx .title_wrap {
         text-align: center;
@@ -486,10 +510,10 @@ body {
         text-align: left;
     }
     .content .section3 .skill_bx .skill_wrap .skill_list .name {
-        font-size: 1em;
+        font-size: 1.3rem;
     }
     .content .section3 .skill_bx .skill_wrap .skill_list .text {
-        font-size: 0.8em;
+        font-size: 1rem;
     }
     .content .section4 .title_wrap::after {
         height: 3px;
@@ -553,8 +577,8 @@ body {
     .content .section2 .title_wrap .title {
         font-size: 4rem;
     }
-    .content .section2 .text_welcome {
-        font-size: 0.9rem;  
+    .content .section3 .intro_bx .text_wrap {
+        margin: 90px 0 0;
     }
     .content .section3 .title_wrap .title {
         font-size: 2.2rem;
@@ -562,11 +586,27 @@ body {
     .content .section3 .title_wrap .text {
         font-size: 1.5rem;
     }
-    .content .section3 .intro_bx .text_wrap {
-        font-size: 0.9rem;
+    .content .section3 .skill_bx .skill_wrap_bx {
+        margin-top: 50px;
     }
     .content .section3 .skill_bx .skill_wrap {
         display: block;
+        margin: 0 30px;
+        text-align: center;
+    }
+    .content .section3 .skill_bx .skill_wrap .skill_list {
+        display: inline-block;
+        width: 230px;
+    }
+    .content .section3 .skill_bx .skill_wrap .skill_list .name {
+        margin: 20px 0;
+    }
+    .content .section3 .skill_bx .skill_wrap .skill_list .text {
+        text-align: left;
+    }
+    .content .section4 .introduce .introduce_wrap {
+        padding-left: 50px;
+        width: 100%;
     }
     .content .section4 .title_wrap .title {
         font-size: 2.2rem;
@@ -580,9 +620,6 @@ body {
     .content .section4 .clickflow .clickflow_wrap .clickflow_list .thumb {
         display: inline-block;
     }
-    .content .section4 .clickflow .clickflow_wrap .clickflow_list .info {
-        font-size: 0.9rem;
-    }
     .content .section4 .clickflow .clickflow_wrap li+li {
         margin-top: 20px;
         margin-left: 0;
@@ -591,10 +628,33 @@ body {
         width: 550px;
         height: 450px;
     }
+    .content .section4 .portfolio .portfolio_table .category .categ {
+        width: 50px;
+    }
+    .content .section4 .portfolio .portfolio_table .table_title {
+        padding: 10px 30px;
+        font-size: 0.8rem;
+    }
+    .content .section4 .portfolio .portfolio_table .source {
+        font-size: 0.8rem;
+    }
+    .content .section4 .portfolio .portfolio_table .table_text {
+        padding: 5px 30px;
+        font-size: 0.8rem;
+    }
+    .content .section5 .contacts_wrap {
+        font-size: 1rem;
+    }
+    .footer .copyright {
+        font-size: 1rem;
+    }
 }
 @media screen and (max-width: 640px) {
     .inner {
         width: 480px;
+    }
+    .content .section2 .text_welcome {
+        font-size: 0.9em;
     }
     .content .section4 .introduce .introduce_wrap {
         padding-left: 0;
@@ -623,7 +683,67 @@ body {
         width: 150px;
         font-size: 0.9rem;
     }
+    .content .section4 .portfolio .portfolio_table .table_title {
+        padding: 10px 15px;
+    }
+    .content .section4 .portfolio .portfolio_table .table_text {
+        padding: 10px 15px;
+        font-size: 0.7rem;
+    }
 }
 @media screen and (max-width: 480px) {
-
+    .inner {
+        width: 380px;
+        padding: 0 0;
+    }
+    .content .section1 nav .nav_wrap .nav_list .nav_list_in {
+        width: 130px;
+        height: 130px;
+        font-size: 1.2rem;
+        line-height: 130px;
+    }
+    .content .section1 nav .nav_wrap {
+        width: 360px;
+        margin-top: -180px;
+        margin-left: -180px;
+    }
+    .content .section3 .intro_bx .text_wrap {
+        font-size: 0.9rem;
+    }
+    .content .section3 .skill_bx .skill_wrap .skill_list .text {
+        font-size: 0.9rem;
+    }
+    .content .section4 .clickflow .clickflow_wrap .clickflow_list .info {
+        font-size: 0.9rem;
+    }
+    .content .section4 .introduce .introduce_wrap .introduce_list .title {
+        width: 100px;
+        font-size: 0.8rem;
+    }
+    .content .section4 .introduce .introduce_wrap .introduce_list .text {
+        font-size: 0.8rem;
+    }
+    .content .section4 .introduce .introduce_text {
+        font-size: 0.9rem;
+    }
+    .content .section4 .portfolio .portfolio_title {
+        font-size: 1.1rem;
+    }
+    .content .section4 .portfolio .portfolio_title .title_number {
+        font-size: 2rem;
+    }
+    .content .section4 .portfolio .portfolio_monitor {
+        margin-top: 40px;
+        width: 350px;
+        height: 300px;
+    }
+    .content .section4 .portfolio .portfolio_btn {
+        margin-top: 40px;
+    }
+    .content .section5 .contacts_wrap {
+        font-size: 0.9rem;
+    }
+    .footer .copyright {
+        font-size: 0.9rem;
+    }
 }

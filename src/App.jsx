@@ -129,7 +129,7 @@ class App extends React.Component {
                   <li className="introduce_list">
                     <span className="title">View URL</span>
                     <span className="text">
-                      <a href="#" className="portfolio_url">https://jiyoooooni.github.io/portfolio-shopping/</a>
+                      <a href="https://jiyoooooni.github.io/portfolio-shopping/" className="portfolio_url">https://jiyoooooni.github.io/portfolio-shopping/</a>
                     </span>
                   </li>
                 </ul>
@@ -360,7 +360,7 @@ class App extends React.Component {
                 <li className="contacts_list">pooooooop@naver.com</li>
                 <li className="contacts_list">tengh@KakaoTalk</li>
                 <li className="contacts_list">
-                  <a href="#">http://github.com/jiyoooooni.</a>
+                  <a href="https://github.com/jiyoooooni">http://github.com/jiyoooooni.</a>
                 </li> 
               </ul>
             </div>
