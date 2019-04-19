@@ -46,17 +46,13 @@ function Projects() {
                 <ul className="clickflow_wrap">
                   <li className="clickflow_list">
                     <div className="thumb">
-                      <a href="#" className="thumb_in">
-                        <img src="./img/clickflow_image1.png" alt="작품관 이동 플로우 이미지"/>
-                      </a>
+                      <span className="point"></span>
                     </div>
                     <p className="info">아트윈도 홈 메뉴에서 작품을 눌러, 작품관으로 이동</p>
                   </li>
                   <li className="clickflow_list">
                     <div className="thumb">
-                      <a href="#" className="thumb_in">
-                        <img src="./img/clickflow_image2.png" alt="작품상세페이지 이동 플로우 이미지"/>
-                      </a>
+                      <span className="point"></span>
                     </div>
                     <p className="info">아트윈도 작품관에서 상품을 눌러, 상세페이지로 이동</p>
                   </li>
@@ -73,12 +69,8 @@ function Projects() {
                   </a> 
                 </div>
                 <div className="portfolio_btn">
-                  <button type="button">
-                    <a href="#" className="button_in">Git Hub</a>
-                  </button>
-                  <button type="button">
-                    <a href="#" className="button_in">View Site</a>
-                  </button>
+                    <a href="https://github.com/jiyoooooni/portfolio-shopping/blob/master/docs/index.html" className="button_in" role="button">Git Hub</a>
+                    <a href="https://jiyoooooni.github.io/portfolio-shopping/" className="button_in" role="button">View Site</a>
                 </div>
                 <table className="portfolio_table">
                   <thead>
@@ -137,12 +129,8 @@ function Projects() {
                   </a> 
                 </div>
                 <div className="portfolio_btn">
-                  <button type="button">
-                    <a href="#" className="button_in">Git Hub</a>
-                  </button>
-                  <button type="button">
-                    <a href="#" className="button_in">View Site</a>
-                  </button>
+                    <a href="https://github.com/jiyoooooni/portfolio-shopping/blob/master/docs/sub.html" className="button_in" role="button">Git Hub</a>
+                    <a href="https://jiyoooooni.github.io/portfolio-shopping/sub.html" className="button_in" role="button">View Site</a>
                 </div>
                 <table className="portfolio_table">
                   <thead>
@@ -201,12 +189,8 @@ function Projects() {
                   </a> 
                 </div>
                 <div className="portfolio_btn">
-                  <button type="button">
-                    <a href="#" className="button_in">Git Hub</a>
-                  </button>
-                  <button type="button">
-                    <a href="#" className="button_in">View Site</a>
-                  </button>
+                    <a href="https://github.com/jiyoooooni/portfolio-shopping/blob/master/docs/sub_detail.html" className="button_in" role="button">Git Hub</a>
+                    <a href="https://jiyoooooni.github.io/portfolio-shopping/sub_detail.html" className="button_in" role="button">View Site</a>
                 </div>
                 <table className="portfolio_table">
                   <thead>

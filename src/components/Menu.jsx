@@ -39,16 +39,19 @@ class Menu extends React.Component {
                     <li className="nav_list">
                         <a href="#" className="nav_list_in" onClick={onClickOption[0]}>
                             <span className="text">Prolog</span>
+                            <img src="/woman.svg" alt="" className="icon"/>
                         </a>
                     </li>
                     <li className="nav_list">
                         <a href="#" className="nav_list_in" onClick={onClickOption[1]}>
                             <span className="text">Intro&amp;Skill</span>
+                            <img src="/icon.svg" alt="" className="icon"/>
                         </a>
                     </li>
                     <li className="nav_list">
                         <a href="#" className="nav_list_in" onClick={onClickOption[2]}>
                             <span className="text">My projects</span>
+                            <img src="/project.svg" alt="" className="icon"/>
                         </a>
                     </li>
                     <li className="nav_list">
