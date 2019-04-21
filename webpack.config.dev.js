@@ -38,7 +38,7 @@ const config = {
     publicPath: "/",
     proxy: {
       "/portfolio": {
-        target: "http://127.0.0.1:5500/docs/",
+        target: "https://jiyoooooni.github.io/portfolio/",
         changeOrigin: true,
         pathRewrite: { "^/portfolio": "" }
       }
