@@ -1,8 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './stylesheets/reset.css';
-import App from './App.jsx';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App.jsx";
 
-ReactDOM.render(<App />, document.getElementById('root'));
-serviceWorker.unregister();
+const rootEl = document.getElementById("root");
+
+ReactDOM.render(<App />, rootEl);

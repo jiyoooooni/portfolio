@@ -1,13 +1,13 @@
-import React from 'react';
-import Contact from './components/Contact'
-import Footer from './components/Footer'
-import Introduction from './components/Introduction'
-import Menu from './components/Menu'
-import Projects from './components/Projects'
-import RollingBanner from './components/RollingBanner'
-import Welcome from './components/Welcome'
-import './stylesheets/reset.css'
-import './stylesheets/app.css'
+import React from "react";
+import Contact from "./components/Contact.jsx";
+import Footer from "./components/Footer.jsx";
+import Introduction from "./components/Introduction.jsx";
+import Menu from "./components/Menu.jsx";
+import Projects from "./components/Projects.jsx";
+import RollingBanner from "./components/RollingBanner.jsx";
+import Welcome from "./components/Welcome.jsx";
+import "./stylesheets/reset.css";
+import "./stylesheets/app.css";
 
 class App extends React.Component {
   constructor() {
@@ -26,7 +26,10 @@ class App extends React.Component {
   switchElevator(num, e) {
     e.preventDefault();
 
-    const sectionEls = Array.from(this.contentRef.current.children).slice(0, num);
+    const sectionEls = Array.from(this.contentRef.current.children).slice(
+      0,
+      num
+    );
     const height = sectionEls.reduce((accum, sectionEl) => {
       accum += sectionEl.clientHeight;
 

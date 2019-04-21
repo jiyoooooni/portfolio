@@ -1,10 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function RollingBanner() {
-    return (
-        <div className="section1">
-        </div>
-    )
+  return <div className="section1" />;
 }
 
-export default RollingBanner
+export default RollingBanner;
