@@ -536,13 +536,11 @@ body {
   .inner {
     width: 1000px;
   }
-  .content .section1 nav .nav_wrap {
-    margin-top: -90px;
-    margin-left: -480px;
-  }
-  .content .section1 nav .nav_wrap .nav_list .nav_list_in {
+  .global_menu .nav_wrap .nav_list .nav_list_in {
     width: 180px;
     height: 180px;
+  }
+  .global_menu .nav_wrap .nav_list .nav_list_in .text {
     line-height: 180px;
   }
   .content .section3 .skill_bx .skill_wrap {
@@ -563,17 +561,18 @@ body {
   .inner {
     width: 760px;
   }
-  .content .section1 nav .nav_wrap {
-    margin-top: -85px;
-    margin-left: -362.5px;
+  .global_menu .nav_wrap .nav_list + .nav_list {
+    margin-left: 40px;
   }
-  .content .section1 nav .nav_wrap .nav_list .nav_list_in {
+  .global_menu .nav_wrap .nav_list .nav_list_in {
     width: 155px;
     height: 155px;
     font-size: 22px;
-    line-height: 160px;
   }
-  .content .section1 nav .nav_wrap li + li {
+  .global_menu .nav_wrap .nav_list .nav_list_in .text {
+    line-height: 155px;
+  }
+  .global_menu .nav_wrap li + li {
     margin-left: 35px;
   }
   .content .section2 {
@@ -677,17 +676,35 @@ body {
   .inner {
     width: 640px;
   }
-  .content .section1 nav .nav_wrap {
-    margin-top: -205px;
-    margin-left: -210px;
+  .global_menu {
     width: 410px;
-  }
+    margin-top: -205px;
+    left: 50%;
+    margin-left: -205px;
 
-  .content .section1 nav .nav_wrap .nav_list {
+  }
+  .global_menu.is_fixed {
+    width: 100%;
+    left: 0;
+    margin-left: 0;
+  }
+  .global_menu .nav_wrap {
+    overflow: hidden;
+  }
+  .global_menu.is_fixed .nav_wrap .nav_list {
+    display: inline-block;
+    float: none;
+    margin: 0 !important;
+  }
+  .global_menu.is_fixed .nav_wrap .nav_list + .nav_list {
+    margin-left: 30px !important;
+  }
+  .global_menu .nav_wrap .nav_list {
+    float: left;
     margin: 25px;
   }
-  .content .section1 nav .nav_wrap li + li {
-    margin-left: 0;
+  .global_menu .nav_wrap .nav_list + .nav_list {
+    margin: 25px;
   }
   .content .section2 .title_wrap .title {
     font-size: 4rem;
@@ -814,13 +831,23 @@ body {
     width: 380px;
     padding: 0 0;
   }
-  .content .section1 nav .nav_wrap .nav_list .nav_list_in {
+  .global_menu.is_fixed .nav_wrap .nav_list .nav_list_in {
+    width: 50px;
+    height: 50px;
+  }
+  .global_menu.is_fixed .nav_wrap .nav_list .nav_list_in .icon {
+    width: 30px;
+    height: 30px;
+  }
+  .global_menu .nav_wrap .nav_list .nav_list_in {
     width: 130px;
     height: 130px;
     font-size: 1.2rem;
+  }
+  .global_menu .nav_wrap .nav_list .nav_list_in .text {
     line-height: 130px;
   }
-  .content .section1 nav .nav_wrap {
+  .global_menu {
     width: 360px;
     margin-top: -180px;
     margin-left: -180px;
