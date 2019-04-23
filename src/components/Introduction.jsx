@@ -2,7 +2,7 @@ import React from "react";
 
 function Introduction() {
   return (
-    <div className="section3">
+    <div className="Introduction">
       <section className="bx_wrap intro_bx">
         <h2 className="title_wrap">
           <span className="text">

@@ -2,7 +2,7 @@ import React from "react";
 
 function Projects() {
   return (
-    <div className="section4">
+    <div className="Projects">
       <div className="inner">
         <h2 className="title_wrap">
           <span className="text">

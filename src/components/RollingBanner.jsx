@@ -1,7 +1,7 @@
 import React from "react";
 
 function RollingBanner() {
-  return <div className="section1" />;
+  return <div className="RollingBanner" />;
 }
 
 export default RollingBanner;

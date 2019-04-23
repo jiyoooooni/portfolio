@@ -2,7 +2,7 @@ import React from "react";
 
 function Welcome() {
   return (
-    <div className="section2">
+    <div className="Welcome">
       <div className="inner">
         <h2 className="title_wrap">
           <strong className="title">
