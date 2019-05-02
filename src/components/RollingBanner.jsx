@@ -6,6 +6,7 @@ function RollingBanner() {
       <li className="visual"></li>
       <li className="visual"></li>
       <li className="visual"></li>
+      <li className="visual"></li>
     </ul>
 </div>;
 }
