@@ -16,8 +16,52 @@ body {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-image: url(/portfolio/assets/visual.jpg);
+	overflow: hidden;
+}
+.content .RollingBanner .visualbx {
+  width: 300vw;
+	font-size: 0;
+	animation: rolling 10s linear 3s infinite reverse;
+
+}
+.content .RollingBanner .visualbx .visual {
+  display: inline-block;
+	width: 100vw;
+  height: 100vh;
   background-size: cover;
+
+}
+.content .RollingBanner .visualbx .visual:nth-child(1) {
+  background-image: url(/portfolio/assets/visual.jpg);
+}
+.content .RollingBanner .visualbx .visual:nth-child(2) {
+  background-image: url(/portfolio/assets/visual2.jpeg);
+}
+.content .RollingBanner .visualbx .visual:nth-child(3) {
+  background-image: url(/portfolio/assets/visual3.jpeg);
+}
+@keyframes rolling {
+  0% {
+    transform: translateX(-300vw);
+  }
+  30% {
+    transform: translateX(-300vw);
+  }
+  33% {
+    transform: translateX(-200vw);
+  }
+  63% {
+    transform: translateX(-200vw);
+  }
+  66% {
+    transform: translateX(-100vw);
+  }
+  96% {
+    transform: translateX(-100vw);
+  }
+  99% {
+    transform: translateX(0vw);
+  }
 }
 .global_menu {
   position: absolute;
