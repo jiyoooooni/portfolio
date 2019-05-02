@@ -100,6 +100,9 @@ body {
   border-radius: 50%;
   transition: color 0.5s, width 0.5s, height 0.5s, background-color 0.5s;
 }
+.global_menu .nav_wrap .nav_list .nav_list_in:hover {
+  background-color: #f09f3f;
+}
 .global_menu .nav_wrap .nav_list .nav_list_in .text {
   position: absolute;
   top: 0;
@@ -134,6 +137,9 @@ body {
   height: 60px;
   background-color: rgba(255, 255, 255, 0.5);
   color: #333;
+}
+.global_menu.is_fixed .nav_wrap .nav_list .nav_list_in:hover {
+  background-color: #f09f3f;
 }
 .global_menu.is_fixed .nav_wrap .nav_list .nav_list_in .text {
   display: none;
