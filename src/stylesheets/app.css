@@ -19,7 +19,7 @@ body {
 	overflow: hidden;
 }
 .content .RollingBanner .visualbx {
-  width: 300vw;
+  width: 400vw;
 	font-size: 0;
 	animation: rolling 10s linear 3s infinite reverse;
 
@@ -35,13 +35,13 @@ body {
   background-image: url(/portfolio/assets/visual.jpg);
 }
 .content .RollingBanner .visualbx .visual:nth-child(2) {
-  background-image: url(/portfolio/assets/visual2.jpeg);
-}
-.content .RollingBanner .visualbx .visual:nth-child(3) {
   background-image: url(/portfolio/assets/visual4.jpg);
 }
+.content .RollingBanner .visualbx .visual:nth-child(3) {
+  background-image: url(/portfolio/assets/visual2.jpeg);
+}
 .content .RollingBanner .visualbx .visual:nth-child(4) {
-  background-image: url(/portfolio/assets/visual3.jpeg);
+  background-image: url(/portfolio/assets/visual.jpg);
 }
 @keyframes rolling {
   0% {
